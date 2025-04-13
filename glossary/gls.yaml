@@ -6,31 +6,31 @@ RISCV:
 
 AI:
   short: AI
-  long: artificial intelligence
+  long: Artificial Intelligence
   description: The branch of computer science dealing with the reproduction or mimicking of human-level intelligence, self-awareness, knowledge, conscience, thought in computer programs.
   group: "@AI"
 
 CPU:
   short: CPU
-  long: central processing unit
+  long: Central Processing Unit
   description: The central processing unit, responsible for executing instructions and managing tasks in a computer system. It handles general-purpose computations.
   group: Computer Architecture
 
 GPU:
   short: GPU
-  long: graphical processing unit
+  long: Graphical Processing Unit
   description: A specialized processor designed to accelerate graphics rendering and parallel data processing, often used in AI and deep learning tasks.
   group: Computer Architecture
 
 ML:
   short: ML
-  long: machine learning
+  long: Machine Learning
   description: A subset of AI where machines learn from data to make predictions or decisions without being explicitly programmed, widely used in applications like recommendation systems and image recognition.
   group: "@AI"
 
 IO:
   short: I/O
-  long: input/output
+  long: Input/Output
   group: Computer Architecture
 
 DL:
