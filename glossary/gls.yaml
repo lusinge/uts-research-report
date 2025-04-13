@@ -56,6 +56,11 @@ ASIC:
   description: A custom-built chip designed for one specific task, offering high speed and energy efficiency for that purpose.
   group: Electronics
 
+NN:
+  short: NN
+  long: Neural Network
+  group: "@AI"
+
 # flops:
 #   short: FLOP
 #   long: Floating Point Operations Per Second
