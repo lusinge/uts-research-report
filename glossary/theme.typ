@@ -32,7 +32,7 @@
           grid(
             columns: (1fr, auto),
             gutter: 0.5em,
-            [
+            block(breakable: false)[
               / #short-display#emph[#long-display]: #description#entry.label
             ],
             entry.pages,
