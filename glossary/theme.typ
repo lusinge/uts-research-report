@@ -6,7 +6,7 @@
   },
   group: (name, index, total, body) => {
     if name != "" and total > 1 {
-      [=== #name]
+      [=== #eval(name, mode:"markup")]
     }
     body
   },

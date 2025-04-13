@@ -8,7 +8,7 @@ AI:
   short: AI
   long: artificial intelligence
   description: The branch of computer science dealing with the reproduction or mimicking of human-level intelligence, self-awareness, knowledge, conscience, thought in computer programs.
-  group: Artificial Intelligence
+  group: "@AI"
 
 CPU:
   short: CPU
@@ -26,7 +26,7 @@ ML:
   short: ML
   long: machine learning
   description: A subset of AI where machines learn from data to make predictions or decisions without being explicitly programmed, widely used in applications like recommendation systems and image recognition.
-  group: Artificial Intelligence
+  group: "@AI"
 
 IO:
   short: I/O
@@ -35,8 +35,8 @@ IO:
 
 DL:
   short: DL
-  long: deep learning
-  group: Artificial Intelligence
+  long: Deep Learning
+  group: "@AI"
 
 ISA:
   short: ISA
