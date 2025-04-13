@@ -1,0 +1,44 @@
+#let theme-academic-custom = (
+  section: (title, body) => {
+    heading(level: 2, title)
+    v(1em)
+    body
+  },
+  group: (name, index, total, body) => {
+    if name != "" and total > 1 {
+      [=== #name]
+    }
+    body
+  },
+  entry: (entry, index, total) => {
+    let short-display = [#entry.short]
+    let long-display = if entry.long == none {
+      []
+    } else {
+      [ ‒ #entry.long]
+    }
+
+    let description = if entry.description == none {
+      []
+    } else {
+      [#entry.description]
+    }
+
+    block(
+      below: 1em,
+      text(
+        size: 0.95em,
+        {
+          grid(
+            columns: (1fr, auto),
+            gutter: 0.5em,
+            [
+              / #short-display#emph[#long-display]: #description#entry.label
+            ],
+            entry.pages,
+          )
+        },
+      ),
+    )
+  },
+)

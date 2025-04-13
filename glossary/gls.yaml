@@ -1,0 +1,81 @@
+RISCV:
+  short: RISC-V
+  long: Reduced Instruction Set Computer Version 5
+  description: An open-source computer architecture designed for flexibility in computing processor designs. Unlike its competitors, RISC-V can be freely modified to suit different applications, making it popular for research, AI, and low-power devices.
+  group: Computer Architecture
+
+AI:
+  short: AI
+  long: artificial intelligence
+  description: The branch of computer science dealing with the reproduction or mimicking of human-level intelligence, self-awareness, knowledge, conscience, thought in computer programs.
+  group: Artificial Intelligence
+
+CPU:
+  short: CPU
+  long: central processing unit
+  description: The central processing unit, responsible for executing instructions and managing tasks in a computer system. It handles general-purpose computations.
+  group: Computer Architecture
+
+GPU:
+  short: GPU
+  long: graphical processing unit
+  description: A specialized processor designed to accelerate graphics rendering and parallel data processing, often used in AI and deep learning tasks.
+  group: Computer Architecture
+
+ML:
+  short: ML
+  long: machine learning
+  description: A subset of AI where machines learn from data to make predictions or decisions without being explicitly programmed, widely used in applications like recommendation systems and image recognition.
+  group: Artificial Intelligence
+
+IO:
+  short: I/O
+  long: input/output
+  group: Computer Architecture
+
+DL:
+  short: DL
+  long: deep learning
+  group: Artificial Intelligence
+
+ISA:
+  short: ISA
+  long: Instruction Set Architecture
+  description: A set of rules and instructions that a computer's CPU can execute. It acts as a bridge between hardware and software, defining how a processor handles data.
+  group: Computer Architecture
+
+IoT:
+  short: IoT
+  long: Internet of Things
+  description: A network of physical objects embedded with sensors and software that can collect and exchange data over the internet, enabling smart applications like home automation and industrial monitoring.
+  group: Embedded Systems
+
+ASIC:
+  short: ASIC
+  long: Application-Specific Integrated Circuit
+  description: A custom-built chip designed for one specific task, offering high speed and energy efficiency for that purpose.
+  group: Electronics
+
+# flops:
+#   short: FLOP
+#   long: Floating Point Operations Per Second
+#   description: A measure of computer performance, particularly in fields requiring large-scale mathematical computations, such as scientific simulations and AI.
+
+# ioit:
+#   short: IoIT
+#   long: Internet of Intelligent Things
+#   description: An advanced form of IoT, where devices not only collect and exchange data but also use AI to process information and make intelligent decisions at the edge.
+
+
+# fpga:
+#   short: FPGA
+#   long: Field-Programmable Gate Array
+#   description: Reconfigurable integrated circuits that can be customized after manufacturing.
+
+# dnn:
+#   short: DNN
+#   long: Deep Neural Network
+
+# soc:
+#   short: SoC
+#   long: System on Chip

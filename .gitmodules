@@ -1,0 +1,6 @@
+[submodule "lib/template"]
+	path = lib/template
+	url = https://github.com/lusinge/typst-apa-link-fix.git
+[submodule "lib/package"]
+	path = lib/package
+	url = https://github.com/lusinge/typst-collection.git
