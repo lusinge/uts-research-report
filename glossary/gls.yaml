@@ -8,7 +8,7 @@ AI:
   short: AI
   long: Artificial Intelligence
   description: The branch of computer science dealing with the reproduction or mimicking of human-level intelligence, self-awareness, knowledge, conscience, thought in computer programs.
-  group: "@AI"
+  group: "@AI:long:noindex"
 
 CPU:
   short: CPU
@@ -25,8 +25,8 @@ GPU:
 ML:
   short: ML
   long: Machine Learning
-  description: A subset of AI where machines learn from data to make predictions or decisions without being explicitly programmed, widely used in applications like recommendation systems and image recognition.
-  group: "@AI"
+  description: "#quote(attribution: <mercadal1990dictionnary>)[A field of artificial intelligence that attempts to build programs which learn from experience.]"
+  group: "@AI:long:noindex"
 
 IO:
   short: I/O
@@ -36,7 +36,7 @@ IO:
 DL:
   short: DL
   long: Deep Learning
-  group: "@AI"
+  group: "@AI:long:noindex"
 
 ISA:
   short: ISA
@@ -59,18 +59,52 @@ ASIC:
 NN:
   short: NN
   long: Neural Network
-  group: "@AI"
+  description: "#quote(attribution: <mercadal1990dictionnary>)[A computer simulation of the brain, which consists of at least one neuron and synapses. [...] The synapses are the connection points for the neurons and are made up of an input, a weight, and an output.]"
+  group: "@AI:long:noindex"
+
+inference:
+  short: inference
+  description: "#quote(attribution: <mercadal1990dictionnary>)[The process of deriving new facts from previously known facts]. In the case of @ML:noindex, it means deducting results on unseen data with previously used data."
+  group: "@AI:long:noindex"
+
+TFLite:
+  short: TFLite
+  long: TensorFlow Lite
+  group: "@AI:long:noindex"
+
+TFLM:
+  short: TFLM
+  long: TensorFlow Lite Micro
+  group: "@AI:long:noindex"
+
+TinyML:
+  short: TinyML
+  long: Tiny Machine Learning
+  description: "Using micro-controller and other low-power devices to execute @ML:noindex tasks."
+  group: "@AI:long:noindex"
+
+RAM:
+  short: RAM
+  long: Rapid Access Memory
+
+DMEM:
+  short: DMEM
+  long: Data Memory
+
+IMEM:
+  short: IMEM
+  long: Instruction Memory
 
 # flops:
 #   short: FLOP
 #   long: Floating Point Operations Per Second
 #   description: A measure of computer performance, particularly in fields requiring large-scale mathematical computations, such as scientific simulations and AI.
 
-# ioit:
-#   short: IoIT
-#   long: Internet of Intelligent Things
-#   description: An advanced form of IoT, where devices not only collect and exchange data but also use AI to process information and make intelligent decisions at the edge.
-
+IoIT:
+  short: IoIT
+  long: Internet of Intelligent Things
+  description: An advanced form of @IoT:noindex, where devices not only collect and exchange data but also use @AI:noindex to process information and make intelligent decisions at the edge.
+  group: "@AI:long:noindex"
 
 # fpga:
 #   short: FPGA

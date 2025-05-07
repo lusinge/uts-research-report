@@ -21,7 +21,7 @@
     let description = if entry.description == none {
       []
     } else {
-      [#entry.description]
+      eval(entry.description, mode: "markup")
     }
 
     block(
