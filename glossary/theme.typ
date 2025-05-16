@@ -15,7 +15,7 @@
     let long-display = if entry.long == none {
       []
     } else {
-      [ ‒ #entry.long]
+      [ ‒ #eval(entry.long, mode: "markup")]
     }
 
     let description = if entry.description == none {

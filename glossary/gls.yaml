@@ -86,14 +86,17 @@ TinyML:
 RAM:
   short: RAM
   long: Rapid Access Memory
+  group: Computer Architecture
 
 DMEM:
   short: DMEM
   long: Data Memory
+  group: Computer Architecture
 
 IMEM:
   short: IMEM
   long: Instruction Memory
+  group: Computer Architecture
 
 # flops:
 #   short: FLOP
@@ -118,3 +121,28 @@ IoIT:
 # soc:
 #   short: SoC
 #   long: System on Chip
+
+IC:
+  short: IC
+  long: Image Classification
+  group: "@AI:long:noindex"
+
+VWW:
+  short: VWW
+  long: Visual Wake Words
+  group: "@AI:long:noindex"
+
+ARM:
+  short: ARM
+  long: Advanced RISC Machine
+  description: A family of reduced instruction set computing (RISC) architectures for computer processors, widely used in mobile devices and embedded systems due to its power efficiency and performance.
+  group: Computer Architecture
+
+RVV:
+  short: RVV
+  long: RISC-V "V" Vector
+  group: Computer Architecture
+
+FPGA:
+  short: FPGA
+  long: Field-Programmable Gate Array
